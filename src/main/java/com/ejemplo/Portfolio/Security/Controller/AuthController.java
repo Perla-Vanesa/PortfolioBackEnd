@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("https://portfolio-perlaacosta.onrender.com/auth")
 @CrossOrigin
 public class AuthController {
     @Autowired
